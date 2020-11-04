@@ -6,9 +6,13 @@ import { RouterModule } from "@angular/router";
 import { ChatsComponent } from "src/app/modules/chats/chats.component";
 import { SharedModule } from "src/app/shared/shared.module";
 import { CalendarComponent } from "src/app/modules/calendar/calendar.component";
+import { AuthModule } from 'src/app/modules/auth/auth.module';
+import { SigninComponent } from 'src/app/modules/auth/signin/signin.component';
+import { SignupComponent } from 'src/app/modules/auth/signup/signup.component';
 
 @NgModule({
   declarations: [
+    SigninComponent,
     DefaultComponent,
     DashboardComponent,
     ChatsComponent,
