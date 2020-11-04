@@ -14,6 +14,6 @@ import { CalendarComponent } from "src/app/modules/calendar/calendar.component";
     ChatsComponent,
     CalendarComponent,
   ],
-  imports: [CommonModule, RouterModule, SharedModule],
+  imports: [CommonModule,RouterModule ,SharedModule],
 })
 export class DefaultModule {}
